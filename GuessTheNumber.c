@@ -9,7 +9,7 @@ int main() {
     int randomValue = rand() % 100;
 
     //Prompt user
-    printf("%s", "Hello, welcome to my little game, please enter a random number to get started! :) ");
+    printf("%s", "Hello, welcome to my little game, please enter a random number between 0 and 100 to get started! :) ");
     printf("%s", "\n Enter a value: ");
     
     //Get user value
@@ -46,6 +46,7 @@ int main() {
 
     //Congratulate the user for finding the correct value
     printf("%s%d%s", "\n Great job, you found the correct value of ", userValue, ", thanks for playing!");
+    scanf("%d", &userValue);
     
     return 0;
 
