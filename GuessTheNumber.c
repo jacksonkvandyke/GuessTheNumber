@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <conio.h>
 
 int main() {
     //Get random value
@@ -46,7 +47,7 @@ int main() {
 
     //Congratulate the user for finding the correct value
     printf("%s%d%s", "\n Great job, you found the correct value of ", userValue, ", thanks for playing!");
-    scanf("%d", &userValue);
+    _getch();
     
     return 0;
 
